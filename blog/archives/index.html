@@ -9,7 +9,7 @@
   <meta name="author" content="Jason">
 
   
-  <meta name="description" content=" Blog Archive Recent Posts GitHub Repos Status updating... @jasoncluck on GitHub ">
+  <meta name="description" content="Blog Archive Hello! I'm a software engineer who builds things at Amazon in Seattle. I'm interested in all aspects of the web. Recent Posts GitHub &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -27,8 +27,8 @@
   <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+
 
   
 
@@ -82,7 +82,16 @@
 
 <aside class="sidebar">
   
-    <section>
+    <section class="about-me">	
+	<p class="about-aside">
+		<span> Hello!</span>
+		I&#8217;m a software engineer who builds things at Amazon in Seattle.  I&#8217;m interested in all aspects of the web.
+	</p>
+	<div class="picture">
+		<img src="/images/self-image.jpg">
+	</div>
+</section>
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -109,7 +118,7 @@
 
         github.showRepos({
             user: 'jasoncluck',
-            count: 0,
+            count: 5,
             skip_forks: true,
             target: '#gh_repos'
         });
