@@ -1,1 +1,15 @@
-// Add your custom styling here.
+// Custom styling
+
+// Remove extra padding from font-awesome icons in nav bar
+.navbar .nav>li>a {
+	padding: 10px 15px 10px;
+}
+
+.navbar .btn, .navbar .btn-group {
+	margin-top: 0;
+}
+
+// Adjust left-nav so the text is centered with the icons
+.nav.left-nav {
+	top: 5px;
+}
