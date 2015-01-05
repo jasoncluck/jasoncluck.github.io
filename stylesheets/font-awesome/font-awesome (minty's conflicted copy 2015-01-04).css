@@ -1,0 +1,67 @@
+/*
+Error: File to import not found or unreadable: bordered-pulled.
+       Load paths:
+         Sass::Globbing::Importer
+         Compass::SpriteImporter
+         /home/clujason/Dropbox/octopress/sass
+         /var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets
+        on line 13 of /home/clujason/Dropbox/octopress/sass/font-awesome/font-awesome.scss
+
+8: @import "path";
+9: @import "core";
+10: @import "larger";
+11: @import "fixed-width";
+12: @import "list";
+13: @import "bordered-pulled";
+14: @import "spinning";
+15: @import "rotated-flipped";
+16: @import "stacked";
+17: @import "icons";
+
+Backtrace:
+/home/clujason/Dropbox/octopress/sass/font-awesome/font-awesome.scss:13
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/import_node.rb:45:in `import'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/import_node.rb:28:in `imported_file'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/import_node.rb:37:in `css_import?'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/root_node.rb:20:in `render'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/sass_compiler.rb:40:in `compile!'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/commands/update_project.rb:49:in `perform'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/bin/compass:30:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/bin/compass:44:in `call'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/bin/compass:44:in `<top (required)>'
+/usr/local/bin/compass:23:in `load'
+/usr/local/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bordered-pulled.\A        Load paths:\A          Sass::Globbing::Importer\A          Compass::SpriteImporter\A          /home/clujason/Dropbox/octopress/sass\A          /var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets\A         on line 13 of /home/clujason/Dropbox/octopress/sass/font-awesome/font-awesome.scss\A \A 8: @import \"path\";\A 9: @import \"core\";\A 10: @import \"larger\";\A 11: @import \"fixed-width\";\A 12: @import \"list\";\A 13: @import \"bordered-pulled\";\A 14: @import \"spinning\";\A 15: @import \"rotated-flipped\";\A 16: @import \"stacked\";\A 17: @import \"icons\";"; }
